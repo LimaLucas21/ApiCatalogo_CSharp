@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PAz6bsjiMz4=",
+  "dgSpecHash": "tORcT739DVY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lsousa\\Documents\\Estudos\\C#\\01\\APICatalogo\\APICatalogo.csproj",
+  "projectFilePath": "C:\\Users\\lsousa\\Documents\\Estudos\\C#\\01\\ApiCatalogo_CSharp\\APICatalogo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lsousa\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\lsousa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
