@@ -1,6 +1,7 @@
 using System.Security.Cryptography.Xml;
 using System.Text.Json.Serialization;
 using APICatalogo.Context;
+using APICatalogo.Services;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -19,6 +20,7 @@ string SqLiteConnection = builder.Configuration.GetConnectionString("DefaultConn
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(SqLiteConnection));
 
+builder.Services.AddTransient<IMeuServico, MeuServico>();
 
 var app = builder.Build();
 
